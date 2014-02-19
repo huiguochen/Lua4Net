@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lua4Net", "Lua4Net\Lua4Net.csproj", "{9D0C1659-A08F-4212-B4F2-4C8767CDE958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lua4NetGenerator", "Lua4NetGenerator\Lua4NetGenerator.csproj", "{C5B62B23-3DCB-48F6-9985-F975FC45AB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9D0C1659-A08F-4212-B4F2-4C8767CDE958}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Debug|x86.ActiveCfg = Debug|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Debug|x86.Build.0 = Debug|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Release|Any CPU.ActiveCfg = Release|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Release|x86.ActiveCfg = Release|x86
+		{C5B62B23-3DCB-48F6-9985-F975FC45AB38}.Release|x86.Build.0 = Release|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Debug|x86.ActiveCfg = Debug|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Debug|x86.Build.0 = Debug|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Release|Any CPU.ActiveCfg = Release|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Release|Mixed Platforms.Build.0 = Release|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Release|x86.ActiveCfg = Release|x86
+		{EE40D0EF-B34B-42F4-A767-A2C6BD8349F7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

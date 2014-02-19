@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<config>
+  
+  <aot>false</aot>
+  
+  <assembly Name="mscorlib.dll">
+    <class Name="System.Object" HasDefaultConstructor="true">
+      <method Name="GetHashCode"></method>
+      <method Name="ToString"></method>
+    </class>
+  </assembly>
+  
+  <assembly Name="Lua4Net.dll">
+  </assembly>
+  
+  <assembly Name="System.Drawing.dll" Namespace="UI">
+    <class Name="System.Drawing.Color" HasDefaultConstructor="true">
+      <property Name="Red"></property>
+      <property Name="Green"></property>
+      <property Name="Blue"></property>
+      <property Name="Yellow"></property>
+      <property Name="White"></property>
+      <property Name="Black"></property>
+    </class>
+
+    <class Name="System.Drawing.Point">
+      <constructor Name="Point" In="System.Drawing.Size" NickName="NewBySize"></constructor>
+      <constructor Name="Point" In="System.Int32,System.Int32" NickName="New" DefaultConstructor="true"></constructor>
+    </class>
+
+    <class Name="System.Drawing.Size">
+      <constructor Name="Size" In="System.Drawing.Point" NickName="NewByPont"></constructor>
+      <constructor Name="Size" In="System.Int32,System.Int32" NickName="New" DefaultConstructor="true"></constructor>
+    </class>
+
+    <class Name="System.Drawing.Font">
+      <constructor Name="Font" NickName="New" In="System.String,System.Single,System.Drawing.FontStyle,System.Drawing.GraphicsUnit,System.Byte"></constructor>
+    </class>
+
+    <class Name="System.Drawing.ContentAlignment"></class>
+    <class Name="System.Drawing.FontStyle"></class>
+    <class Name="System.Drawing.GraphicsUnit"></class>    
+  </assembly>
+  
+  <assembly Name="System.Windows.Forms.dll" Namespace="UI">
+
+    <class Name="System.Windows.Forms.Control+ControlCollection">
+      <property Name="Item" In="System.Int32" Get="GetControlByIndex"></property>
+      <property Name="Item" In="System.String" Get="GetControlByKey"></property>
+      <method Name="Add" In="System.Windows.Forms.Control"></method>      
+    </class>
+
+    <class Name="System.Windows.Forms.Form">
+      <constructor Name="Form" In=""></constructor>
+      
+      <property Name="ClientSize"></property>
+      <property Name="Text"></property>
+      
+      <method Name="ResumeLayout" In="System.Boolean"></method>
+    </class>
+
+    <class Name="System.Windows.Forms.Application">
+      <method Name="Run" In="System.Windows.Forms.Form"></method>
+    </class>
+
+    <class Name="System.Windows.Forms.Label">
+      <constructor Name="Label" NickName="New"></constructor>     
+      <property Name="TextAlign"></property>
+    </class>
+
+    <class Name="System.Windows.Forms.Control">
+      <property Name="Location"></property>
+      <property Name="Parent"></property>
+      <property Name="Controls"></property>
+      <property Name="Name"></property>
+      <property Name="Size"></property>
+      <property Name="TabIndex"></property>
+      <property Name="ForeColor"></property>
+      <property Name="Font"></property>
+      <property Name="Enabled"></property>
+      <property Name="Focused"></property>
+      <property Name="BackColor"></property>
+      <property Name="Dock"></property>
+      <property Name="Anchor"></property>
+      <property Name="Text"></property>
+      <property Name="RightToLeft"></property>
+      <method Name="SuspendLayout"></method>
+      <event Name="Click"></event>
+    </class>
+
+    <class Name="System.Windows.Forms.ButtonBase">
+      <property Name="TextAlign"></property>
+      <property Name="AutoEllipsis"></property>
+      <property Name="FlatStyle"></property>
+      <property Name="ImageIndex"></property>
+      <property Name="ImageKey"></property>
+      <property Name="ImeMode"></property>      
+    </class>
+    <class Name="System.Windows.Forms.Button">
+      <constructor Name="Button" NickName="New"></constructor>
+      <property Name="Text"></property>
+      <property Name="AutoSize"></property>
+    </class>
+
+    <class Name="System.Windows.Forms.CheckBox">
+      <constructor Name="CheckBox" NickName="New"></constructor>
+      <property Name="Checked"></property>
+      <property Name="ThreeState"></property>
+      <property Name="CheckAlign"></property>
+      <property Name="Appearance"></property>
+      <property Name="CheckState"></property>      
+    </class>
+
+    <class Name="System.Windows.Forms.FlatStyle"> </class>
+    <class Name="System.Windows.Forms.DockStyle"> </class>
+    <class Name="System.Windows.Forms.AnchorStyles"> </class>
+    <class Name="System.Windows.Forms.CheckState"> </class>
+    <class Name="System.Windows.Forms.Appearance"> </class>
+    <class Name="System.Windows.Forms.ImeMode"> </class>
+    <class Name="System.Windows.Forms.RightToLeft"> </class>
+    <class Name="System.Windows.Forms.CheckState"> </class>    
+
+  </assembly>
+
+</config>
